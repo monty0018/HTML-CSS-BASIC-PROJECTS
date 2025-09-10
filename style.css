@@ -373,6 +373,9 @@ footer{
         grid-template-columns: 1fr;
 
     }
+    .footer-content{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /*for tablets*/
@@ -380,5 +383,18 @@ footer{
      .course-grid,.stats,.features-grid{
         grid-template-columns: 1fr 1fr;
 
+    }
+     .footer-content{
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero{
+        padding: 1rem 0.5rem;
+        padding-top: 75px;
+        height: auto;
+        min-height: 100vh;
+    }
+    .hero h1{
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
     }
 }
